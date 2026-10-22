@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Node.js CI/CD demo using GitHub Actions and Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test",
+    "build": "node --check app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
